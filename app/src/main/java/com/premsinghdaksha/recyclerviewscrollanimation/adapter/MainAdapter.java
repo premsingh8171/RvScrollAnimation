@@ -36,6 +36,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.ansFaqs.setText(data.get(position));
+        //here we callback rvScrollAnimation
         //rvScrollAnimation.scrollDownToTop(mContext, holder.crd);
         // rvScrollAnimation.scrollTopToDown(mContext, holder.crd);
         //  rvScrollAnimation.scrollLeftToRight(mContext, holder.crd);
