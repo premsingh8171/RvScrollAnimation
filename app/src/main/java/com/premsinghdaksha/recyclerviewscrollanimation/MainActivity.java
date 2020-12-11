@@ -4,9 +4,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.premsinghdaksha.recyclerviewscrollanimation.adapter.MainAdapter;
-import com.premsinghdaksha.rvscrollanimation.RvScrollAnimation;
 
 import java.util.ArrayList;
 
